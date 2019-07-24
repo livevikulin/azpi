@@ -1,0 +1,354 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <title>АЗПИ Маркет</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="icon" type="image/x-icon" href="/img/favicon.ico">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1"/>
+</head>
+
+<body>
+<div class="wrapper">
+    <header class="header js-header">
+        <div class="nav-top header__nav-top">
+            <div class="nav-top__inner content">
+                <a href="javascript:void(0)" class="nav-top__item login">Вход</a>
+                <a href="javascript:void(0)" class="nav-top__item price-list ">Прайс-лист</a>
+            </div>
+        </div>
+
+        <div class="header__inner content">
+            <div class="header__top">
+                <a href="javascript:void(0);" class="header__hamburger js-menu-toggle"></a>
+                <a href="/" class="header__logo">
+                    <img src="img/logo.svg" alt="АЗПИ маркет">
+                </a>
+                <div class="header__slogan-block">
+                        <span class="header__slogan-text">Отправляем по всей России
+                            любой транспортной
+                            компанией</span>
+                    <i class="header__slogan-icon"></i>
+                </div>
+                <div class="header__contacts-block">
+                    <a href="javascript:void(0);" class="header__telephone"><span class="header__telephone-number">+7 (3852) 77-94-83</span></a>
+                    <a href="javascript:void(0);" class="header__email">azpi22@bk.ru</a>
+                </div>
+                <div class="finder header__finder">
+                    <form class="finder__form desktop">
+                        <input class="finder__input" placeholder="Поиск по артикулу">
+                        <button class="finder__submit"></button>
+                    </form>
+                    <a href="javascript:void(0);" class="finder__mobile js-finder-toggle"></a>
+                </div>
+                <div class="header__basket header-basket">
+                    <a href="javascript:void(0)" class="header-basket__basket-info">
+                        <span class="header-basket__basket-icon"></span>
+                        <span class="header-basket__basket-text">В корзине 50 товаров</span>
+                        <div class="header-basket__basket-count-wrap">
+                            <div class="header-basket__basket-count-text">50</div>
+                        </div>
+                    </a>
+                </div>
+            </div>
+        </div>
+
+        <div class="header__nav">
+            <div class="content">
+                <ul class="navbar js-navbar">
+                    <li class="navbar__item"><a href="javascript:void(0);" class="navbar__link">О компании</a></li>
+                    <li class="navbar__item"><a href="javascript:void(0);" class="navbar__link">Новости</a></li>
+                    <li class="navbar__item"><a href="javascript:void(0);" class="navbar__link">Каталог</a></li>
+                    <li class="navbar__item"><a href="javascript:void(0);" class="navbar__link">Доставка и оплата </a>
+                    </li>
+                    <li class="navbar__item"><a href="javascript:void(0);" class="navbar__link">Ценовая политика</a>
+                    </li>
+                    <li class="navbar__item"><a href="javascript:void(0);" class="navbar__link">Гарантия</a></li>
+                    <li class="navbar__item"><a href="javascript:void(0);" class="navbar__link">Партнеры</a></li>
+                    <li class="navbar__item"><a href="javascript:void(0);" class="navbar__link">Контакты</a></li>
+                </ul>
+            </div>
+        </div>
+    </header>
+
+    <div class="wrapper__content">
+        <div class="section">
+            <div class="section__breadcrumbs breadcrumbs content">
+                <ul class="breadcrumbs__inner">
+                    <li class="breadcrumbs__item"><a href="javascript:void(0);" class="breadcrumbs__link">Главная</a>
+                    </li>
+                    <li class="breadcrumbs__item">Корзина</li>
+                </ul>
+            </div>
+            <div class="section__page-title page-title content">
+                <h2 class="page-title__title">Корзина</h2>
+                <div class="page-title__underline"></div>
+            </div>
+            <div class="section__inner section__inner_basket content">
+                <div class="section__content">
+                    <div class="basket-table">
+                        <div class="basket-table__row">
+                            <div class="basket-table__cell basket-table__cell_index">
+                                <span class="basket-table__index">1</span>
+                            </div>
+                            <div class="basket-table__cell basket-table__cell_image">
+                                <a href="img/product.jpg" class="basket-table__image-link">
+                                    <img class="basket-table__image" src="img/product.jpg">
+                                </a>
+                            </div>
+                            <div class="basket-table__cell basket-table__cell_name">
+                                <a href="#" class="basket-table__name">Форсунка 172.1112010-11</a>
+                            </div>
+                            <div class="basket-table__cell basket-table__cell_price">
+                                <span class="basket-table__price">17 000 руб.</span>
+                                <span class="basket-table__price-type">Цена за 1 шт.</span>
+                            </div>
+                            <div class="basket-table__cell basket-table__cell_quantity">
+                                <div class="basket-table__quantity quantity quantity_basket js-quantity">
+                                    <a href="javascript:void(0);"
+                                       class="quantity__controls quantity__controls_bg quantity__controls_delete js-quantity-delete"></a>
+                                    <span class="quantity__number quantity__number_black js-quantity-number">1</span>
+                                    <a href="javascript:void(0);"
+                                       class="quantity__controls quantity__controls_bg quantity__controls_add js-quantity-add"></a>
+                                </div>
+                            </div>
+                            <div class="basket-table__cell basket-table__cell_coast">
+                                <span class="basket-table__coast">34 000 руб.</span>
+                            </div>
+                            <a href="javascript:void(0);" class="basket-table__delete_product"></a>
+                        </div>
+                        <div class="basket-table__row">
+                            <div class="basket-table__cell basket-table__cell_index">
+                                <span class="basket-table__index">1</span>
+                            </div>
+                            <div class="basket-table__cell basket-table__cell_image">
+                                <a href="img/product.jpg" class="basket-table__image-link">
+                                    <img class="basket-table__image" src="img/product.jpg">
+                                </a>
+                            </div>
+                            <div class="basket-table__cell basket-table__cell_name">
+                                <a href="#" class="basket-table__name">Форсунка 172.1112010-11</a>
+                            </div>
+                            <div class="basket-table__cell basket-table__cell_price">
+                                <span class="basket-table__price">17 000 руб.</span>
+                                <span class="basket-table__price-type">Цена за 1 шт.</span>
+                            </div>
+                            <div class="basket-table__cell basket-table__cell_quantity">
+                                <div class="basket-table__quantity quantity quantity_basket js-quantity">
+                                    <a href="javascript:void(0);"
+                                       class="quantity__controls quantity__controls_bg quantity__controls_delete js-quantity-delete"></a>
+                                    <span class="quantity__number quantity__number_black js-quantity-number">1</span>
+                                    <a href="javascript:void(0);"
+                                       class="quantity__controls quantity__controls_bg quantity__controls_add js-quantity-add"></a>
+                                </div>
+                            </div>
+                            <div class="basket-table__cell basket-table__cell_coast">
+                                <span class="basket-table__coast">34 000 руб.</span>
+                            </div>
+                            <a href="javascript:void(0);" class="basket-table__delete_product"></a>
+                        </div>
+                        <div class="basket-table__row">
+                            <div class="basket-table__cell basket-table__cell_index">
+                                <span class="basket-table__index">1</span>
+                            </div>
+                            <div class="basket-table__cell basket-table__cell_image">
+                                <a href="img/product.jpg" class="basket-table__image-link">
+                                    <a href="img/product.jpg" class="basket-table__image-link">
+                                        <img class="basket-table__image" src="img/product.jpg">
+                                    </a>
+                                </a>
+                            </div>
+                            <div class="basket-table__cell basket-table__cell_name">
+                                <a href="#" class="basket-table__name">Форсунка 172.1112010-11</a>
+                            </div>
+                            <div class="basket-table__cell basket-table__cell_price">
+                                <span class="basket-table__price">17 000 руб.</span>
+                                <span class="basket-table__price-type">Цена за 1 шт.</span>
+                            </div>
+                            <div class="basket-table__cell basket-table__cell_quantity">
+                                <div class="basket-table__quantity quantity quantity_basket js-quantity">
+                                    <a href="javascript:void(0);"
+                                       class="quantity__controls quantity__controls_bg quantity__controls_delete js-quantity-delete"></a>
+                                    <span class="quantity__number quantity__number_black js-quantity-number">1</span>
+                                    <a href="javascript:void(0);"
+                                       class="quantity__controls quantity__controls_bg quantity__controls_add js-quantity-add"></a>
+                                </div>
+                            </div>
+                            <div class="basket-table__cell basket-table__cell_coast">
+                                <span class="basket-table__coast">34 000 руб.</span>
+                            </div>
+                            <a href="javascript:void(0);" class="basket-table__delete_product"></a>
+                        </div>
+                        <div class="basket-table__row">
+                            <div class="basket-table__cell basket-table__cell_index">
+                                <span class="basket-table__index">1</span>
+                            </div>
+                            <div class="basket-table__cell basket-table__cell_image">
+                                <a href="img/product.jpg" class="basket-table__image-link">
+                                    <img class="basket-table__image" src="img/product.jpg">
+                                </a>
+                            </div>
+                            <div class="basket-table__cell basket-table__cell_name">
+                                <a href="#" class="basket-table__name">Форсунка 172.1112010-11</a>
+                            </div>
+                            <div class="basket-table__cell basket-table__cell_price">
+                                <span class="basket-table__price">17 000 руб.</span>
+                                <span class="basket-table__price-type">Цена за 1 шт.</span>
+                            </div>
+                            <div class="basket-table__cell basket-table__cell_quantity">
+                                <div class="basket-table__quantity quantity quantity_basket js-quantity">
+                                    <a href="javascript:void(0);"
+                                       class="quantity__controls quantity__controls_bg quantity__controls_delete js-quantity-delete"></a>
+                                    <span class="quantity__number quantity__number_black js-quantity-number">1</span>
+                                    <a href="javascript:void(0);"
+                                       class="quantity__controls quantity__controls_bg quantity__controls_add js-quantity-add"></a>
+                                </div>
+                            </div>
+                            <div class="basket-table__cell basket-table__cell_coast">
+                                <span class="basket-table__coast">34 000 руб.</span>
+                            </div>
+                            <a href="javascript:void(0);" class="basket-table__delete_product"></a>
+                        </div>
+                        <div class="basket-table__row">
+                            <div class="basket-table__cell basket-table__cell_index">
+                                <span class="basket-table__index">1</span>
+                            </div>
+                            <div class="basket-table__cell basket-table__cell_image">
+                                <a href="img/product.jpg" class="basket-table__image-link">
+                                    <img class="basket-table__image" src="img/product.jpg">
+                                </a>
+                            </div>
+                            <div class="basket-table__cell basket-table__cell_name">
+                                <a href="#" class="basket-table__name">Форсунка 172.1112010-11</a>
+                            </div>
+                            <div class="basket-table__cell basket-table__cell_price">
+                                <span class="basket-table__price">17 000 руб.</span>
+                                <span class="basket-table__price-type">Цена за 1 шт.</span>
+                            </div>
+                            <div class="basket-table__cell basket-table__cell_quantity">
+                                <div class="basket-table__quantity quantity quantity_basket js-quantity">
+                                    <a href="javascript:void(0);"
+                                       class="quantity__controls quantity__controls_bg quantity__controls_delete js-quantity-delete"></a>
+                                    <span class="quantity__number quantity__number_black js-quantity-number">1</span>
+                                    <a href="javascript:void(0);"
+                                       class="quantity__controls quantity__controls_bg quantity__controls_add js-quantity-add"></a>
+                                </div>
+                            </div>
+                            <div class="basket-table__cell basket-table__cell_coast">
+                                <span class="basket-table__coast">34 000 руб.</span>
+                            </div>
+                            <a href="javascript:void(0);" class="basket-table__delete_product"></a>
+                        </div>
+                        <div class="basket-table__row">
+                            <div class="basket-table__cell basket-table__cell_index">
+                                <span class="basket-table__index">1</span>
+                            </div>
+                            <div class="basket-table__cell basket-table__cell_image">
+                                <a href="img/product.jpg" class="basket-table__image-link">
+                                    <img class="basket-table__image" src="img/product.jpg">
+                                </a>
+                            </div>
+                            <div class="basket-table__cell basket-table__cell_name">
+                                <a href="#" class="basket-table__name">Форсунка 172.1112010-11</a>
+                            </div>
+                            <div class="basket-table__cell basket-table__cell_price">
+                                <span class="basket-table__price">17 000 руб.</span>
+                                <span class="basket-table__price-type">Цена за 1 шт.</span>
+                            </div>
+                            <div class="basket-table__cell basket-table__cell_quantity">
+                                <div class="basket-table__quantity quantity quantity_basket js-quantity">
+                                    <a href="javascript:void(0);"
+                                       class="quantity__controls quantity__controls_bg quantity__controls_delete js-quantity-delete"></a>
+                                    <span class="quantity__number quantity__number_black js-quantity-number">1</span>
+                                    <a href="javascript:void(0);"
+                                       class="quantity__controls quantity__controls_bg quantity__controls_add js-quantity-add"></a>
+                                </div>
+                            </div>
+                            <div class="basket-table__cell basket-table__cell_coast">
+                                <span class="basket-table__coast">34 000 руб.</span>
+                            </div>
+                            <a href="javascript:void(0);" class="basket-table__delete_product"></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="section__side-bar section__side-bar_right">
+                    <div class="basket-side-bar">
+                        <span class="basket-side-bar__title">В корзине 5 товаров на сумму</span>
+                        <span class="basket-side-bar__coast">345 208 руб.</span>
+                        <a href="#" class="btn basket-side-bar__btn">Оформить заказ</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <footer class="footer">
+        <div class="footer__inner content">
+            <a href="/" class="footer__logo">
+                <img src="img/logo.svg" alt="АЗПИ маркет">
+            </a>
+            <ul class="footer__menu-wrap">
+                <li class="footer__menu-item"><a href="javascript:void(0);" class="footer__menu-link">О компании</a>
+                </li>
+                <li class="footer__menu-item"><a href="javascript:void(0);" class="footer__menu-link">Ценовая
+                    политика</a>
+                </li>
+                <li class="footer__menu-item"><a href="javascript:void(0);" class="footer__menu-link">Новости</a>
+                </li>
+                <li class="footer__menu-item"><a href="javascript:void(0);" class="footer__menu-link">Доставка и
+                    оплата</a>
+                </li>
+                <li class="footer__menu-item"><a href="javascript:void(0);" class="footer__menu-link">Каталог</a>
+                </li>
+                <li class="footer__menu-item"><a href="javascript:void(0);" class="footer__menu-link">Партнеры</a>
+                </li>
+                <li class="footer__menu-item"><a href="javascript:void(0);" class="footer__menu-link">Доставка</a>
+                </li>
+                <li class="footer__menu-item"><a href="javascript:void(0);" class="footer__menu-link">Контакты</a>
+                </li>
+            </ul>
+            <div class="footer__contacts">
+                <a href="javascript:void(0);" class="footer__telephone">+7 (3852) 77-94-83</a>
+                <a href="javascript:void(0);" class="footer__email">azpi22@bk.ru</a>
+            </div>
+            <a href="javascript:void(0);" class="footer__address">
+                656023, РОССИЯ, Алтайский край, г. Барнаул, пр. Космонавтов, 6/2, офис 2
+            </a>
+        </div>
+        <div class="copyright">
+            <div class="copyright__inner content">
+                <span class="copyright__azpi">2018 © АЗПИ маркет. Все права защищены.</span>
+                <span class="copyright__letsrock">
+                    Разработка сайта -
+                    <a href="https://www.letsrock.pro" class="copyright__letsrock-logo">
+                        <img src="img/letsrock-logo.svg" alt="LetsRock">
+                    </a>
+                </span>
+            </div>
+        </div>
+    </footer>
+    <div class="bg-layer"></div>
+    <div class="modal modal_type_login js-modal js-modal-login">
+        <div class="modal__inner">
+            <button data-izimodal-close="" class="modal__close"></button>
+            <h3 class="modal__title">Вход на сайт</h3>
+            <form class="form-block form-block_modal js-form" action="where.php">
+                <div class="form-block__inner form-block__inner_modal">
+                    <div class="input-field form-block__input-field">
+                        <input name="email" type="text" class="input-field__text" placeholder="Email">
+                    </div>
+                    <div class="input-field form-block__input-field">
+                        <input name="password" type="password" class="input-field__text" placeholder="Пароль">
+                    </div>
+                    <a href="#" class="modal__link modal__link_remember-pass">Забыли пароль</a>
+                    <button class="btn modal__btn">Сохранить</button>
+                </div>
+            </form>
+        </div>
+    </div>
+</div>
+<script src="js/libs.js"></script>
+<script src="js/script.js"></script>
+</body>
+
+</html>

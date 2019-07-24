@@ -1,0 +1,499 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <title>АЗПИ Маркет</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="icon" type="image/x-icon" href="/img/favicon.ico">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1"/>
+</head>
+
+<body>
+<div class="wrapper">
+    <header class="header js-header">
+        <div class="nav-top header__nav-top">
+            <div class="nav-top__inner content">
+                <a href="javascript:void(0)" class="nav-top__item login">Вход</a>
+                <a href="javascript:void(0)" class="nav-top__item price-list ">Прайс-лист</a>
+            </div>
+        </div>
+
+        <div class="header__inner content">
+            <div class="header__top">
+                <a href="javascript:void(0);" class="header__hamburger js-menu-toggle"></a>
+                <a href="/" class="header__logo">
+                    <img src="img/logo.svg" alt="АЗПИ маркет">
+                </a>
+                <div class="header__slogan-block">
+                        <span class="header__slogan-text">Отправляем по всей России
+                            любой транспортной
+                            компанией</span>
+                    <i class="header__slogan-icon"></i>
+                </div>
+                <div class="header__contacts-block">
+                    <a href="javascript:void(0);" class="header__telephone"><span class="header__telephone-number">+7 (3852) 77-94-83</span></a>
+                    <a href="javascript:void(0);" class="header__email">azpi22@bk.ru</a>
+                </div>
+                <div class="finder header__finder">
+                    <form class="finder__form desktop">
+                        <input class="finder__input" placeholder="Поиск по артикулу">
+                        <button class="finder__submit"></button>
+                    </form>
+                    <a href="javascript:void(0);" class="finder__mobile js-finder-toggle"></a>
+                </div>
+                <div class="header__basket header-basket">
+                    <a href="javascript:void(0)" class="header-basket__basket-info">
+                        <span class="header-basket__basket-icon"></span>
+                        <span class="header-basket__basket-text">В корзине 50 товаров</span>
+                        <div class="header-basket__basket-count-wrap">
+                            <div class="header-basket__basket-count-text">50</div>
+                        </div>
+                    </a>
+                </div>
+            </div>
+        </div>
+
+        <div class="header__nav">
+            <div class="content">
+                <ul class="navbar js-navbar">
+                    <li class="navbar__item"><a href="javascript:void(0);" class="navbar__link">О компании</a></li>
+                    <li class="navbar__item"><a href="javascript:void(0);" class="navbar__link">Новости</a></li>
+                    <li class="navbar__item"><a href="javascript:void(0);" class="navbar__link">Каталог</a></li>
+                    <li class="navbar__item"><a href="javascript:void(0);" class="navbar__link">Доставка и оплата </a>
+                    </li>
+                    <li class="navbar__item"><a href="javascript:void(0);" class="navbar__link">Ценовая политика</a>
+                    </li>
+                    <li class="navbar__item"><a href="javascript:void(0);" class="navbar__link">Гарантия</a></li>
+                    <li class="navbar__item"><a href="javascript:void(0);" class="navbar__link">Партнеры</a></li>
+                    <li class="navbar__item"><a href="javascript:void(0);" class="navbar__link">Контакты</a></li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="mobile-menu js-mobile-menu">
+            <div class="nav-top mobile-menu__nav-top">
+                <div class="nav-top__inner content">
+                    <a href="javascript:void(0)" class="nav-top__item login js-modal-link"
+                       data-izimodal-open=".js-modal-login" data-izimodal-transitionin="fadeInDown">Вход</a>
+                    <a href="javascript:void(0)" class="nav-top__item price-list">Прайс-лист</a>
+                    <a href="javascript:void(0)" class="nav-top__menu-toggle js-menu-toggle"></a>
+                </div>
+            </div>
+            <ul class="mobile-menu__nav-bar navbar">
+                <li class="navbar__item"><a href="javascript:void(0);" class="navbar__link">О компании</a></li>
+                <li class="navbar__item"><a href="javascript:void(0);" class="navbar__link">Новости</a></li>
+                <li class="navbar__item"><a href="javascript:void(0);" class="navbar__link">Каталог</a></li>
+                <li class="navbar__item"><a href="javascript:void(0);" class="navbar__link">Доставка и оплата </a>
+                </li>
+                <li class="navbar__item"><a href="javascript:void(0);" class="navbar__link">Ценовая политика</a>
+                </li>
+                <li class="navbar__item"><a href="javascript:void(0);" class="navbar__link">Гарантия</a></li>
+                <li class="navbar__item"><a href="javascript:void(0);" class="navbar__link">Партнеры</a></li>
+                <li class="navbar__item"><a href="javascript:void(0);" class="navbar__link">Контакты</a></li>
+            </ul>
+            <div class="mobile-menu__contacts-block header__contacts-block">
+                <a href="javascript:void(0);" class="header__telephone header__telephone_mode_mobile"><span
+                        class="header__telephone-number header__telephone-number_mode_mobile">+7 (3852) 77-94-83</span></a>
+                <a href="javascript:void(0);" class="header__email header__email_mode_mobile">azpi22@bk.ru</a>
+            </div>
+        </div>
+
+        <div class="mobile-menu js-mobile-finder">
+            <div class="nav-top mobile-menu__nav-top">
+                <div class="nav-top__inner content">
+                    <a href="javascript:void(0)" class="nav-top__menu-toggle js-finder-toggle"></a>
+                </div>
+            </div>
+
+            <div class="finder mobile-menu__finder">
+                <form class="finder__form">
+                    <input class="finder__input" placeholder="Поиск по артикулу">
+                    <button class="finder__submit"></button>
+                </form>
+            </div>
+        </div>
+
+    </header>
+
+    <div class="wrapper__content">
+        <div class="section">
+            <div class="section__inner section__inner_catalog catalog content">
+                <div class="section__breadcrumbs section__breadcrumbs_mobile breadcrumbs">
+                    <ul class="breadcrumbs__inner">
+                        <li class="breadcrumbs__item"><a href="javascript:void(0);"
+                                                         class="breadcrumbs__link">Главная</a>
+                        </li>
+                        <li class="breadcrumbs__item"><a href="javascript:void(0);"
+                                                         class="breadcrumbs__link">Каталог</a>
+                        </li>
+                        <li class="breadcrumbs__item">Форсунка 171</li>
+                    </ul>
+                </div>
+                <div class="section__page-title section__page-title_mobile page-title">
+                    <h2 class="page-title__title">Форсунка 171.1112010-11</h2>
+                    <div class="page-title__underline"></div>
+                </div>
+                <div class="section__side-bar">
+                    <div class="side-bar">
+                        <div class="side-bar__input input-field input-field_transparent">
+                            <select class="input-field__select js-select" data-placeholder="Бренд">
+                                <option></option>
+                                <option>Bosch</option>
+                                <option>КамАЗ</option>
+                                <option>ММЗ</option>
+                                <option>ВМТЗ</option>
+                                <option>Ambac Int.</option>
+                            </select>
+                        </div>
+                        <div class="side-bar__menu-tree menu-tree">
+                            <ul class="menu-tree__items-list js-tree-list">
+                                <li class="menu-tree__item-root">
+                                    <a href="javascript:void(0);" class="menu-tree__link root js-tree-root-link open">Форсунки</a>
+                                    <ul class="menu-tree__items-list js-tree-list">
+                                        <li class="menu-tree__item-root">
+                                            <a href="javascript:void(0);"
+                                               class="menu-tree__link root js-tree-root-link">Инжекторы Common
+                                                Rail</a>
+                                            <ul class="menu-tree__items-list js-tree-list">
+                                                <li class="menu-tree__item">
+                                                    <a href="javascript:void(0);" class="menu-tree__link ">Инжектор
+                                                        A-04-001</a>
+                                                </li>
+                                                <li class="menu-tree__item">
+                                                    <a href="javascript:void(0);" class="menu-tree__link ">Инжектор
+                                                        A-04-001</a>
+                                                </li>
+                                                <li class="menu-tree__item">
+                                                    <a href="javascript:void(0);" class="menu-tree__link ">Инжектор
+                                                        A-04-001</a>
+                                                </li>
+                                                <li class="menu-tree__item">
+                                                    <a href="javascript:void(0);" class="menu-tree__link ">Инжектор
+                                                        A-04-001</a>
+                                                </li>
+                                                <li class="menu-tree__item">
+                                                    <a href="javascript:void(0);" class="menu-tree__link ">Инжектор
+                                                        A-04-001</a>
+                                                </li>
+                                            </ul>
+                                        </li>
+                                        <li class="menu-tree__item-root">
+                                            <a href="javascript:void(0);"
+                                               class="menu-tree__link root js-tree-root-link">Форсунки
+                                                механические</a>
+                                            <ul class="menu-tree__items-list js-tree-list">
+                                                <li class="menu-tree__item">
+                                                    <a href="javascript:void(0);"
+                                                       class="menu-tree__link root js-tree-root-link">Инжектор
+                                                        A-04-001</a>
+                                                </li>
+                                                <li class="menu-tree__item">
+                                                    <a href="javascript:void(0);"
+                                                       class="menu-tree__link root js-tree-root-link">Инжектор
+                                                        A-04-001</a>
+                                                </li>
+                                                <li class="menu-tree__item">
+                                                    <a href="javascript:void(0);"
+                                                       class="menu-tree__link root js-tree-root-link">Инжектор
+                                                        A-04-001</a>
+                                                </li>
+                                                <li class="menu-tree__item">
+                                                    <a href="javascript:void(0);"
+                                                       class="menu-tree__link root js-tree-root-link">Инжектор
+                                                        A-04-001</a>
+                                                </li>
+                                                <li class="menu-tree__item">
+                                                    <a href="javascript:void(0);"
+                                                       class="menu-tree__link root js-tree-root-link">Инжектор
+                                                        A-04-001</a>
+                                                </li>
+                                            </ul>
+                                        </li>
+                                    </ul>
+                                </li>
+                                <li class="menu-tree__item-root">
+                                    <a href="javascript:void(0);" class="menu-tree__link root js-tree-root-link">Распылители</a>
+                                    <ul class="menu-tree__items-list js-tree-list">
+                                        <li class="menu-tree__item">
+                                            <a href="javascript:void(0);"
+                                               class="menu-tree__link root js-tree-root-link">Инжектор A-04-001</a>
+                                        </li>
+                                        <li class="menu-tree__item">
+                                            <a href="javascript:void(0);"
+                                               class="menu-tree__link root js-tree-root-link">Инжектор A-04-001</a>
+                                        </li>
+                                        <li class="menu-tree__item">
+                                            <a href="javascript:void(0);"
+                                               class="menu-tree__link root js-tree-root-link">Инжектор A-04-001</a>
+                                        </li>
+                                        <li class="menu-tree__item">
+                                            <a href="javascript:void(0);"
+                                               class="menu-tree__link root js-tree-root-link">Инжектор A-04-001</a>
+                                        </li>
+                                        <li class="menu-tree__item">
+                                            <a href="javascript:void(0);"
+                                               class="menu-tree__link root js-tree-root-link">Инжектор A-04-001</a>
+                                        </li>
+                                    </ul>
+                                </li>
+                                <li class="menu-tree__item-root">
+                                    <a href="javascript:void(0);" class="menu-tree__link root js-tree-root-link">Импортозамещение</a>
+                                    <ul class="menu-tree__items-list js-tree-list">
+                                        <li class="menu-tree__item">
+                                            <a href="javascript:void(0);"
+                                               class="menu-tree__link root js-tree-root-link">Инжектор A-04-001</a>
+                                        </li>
+                                        <li class="menu-tree__item">
+                                            <a href="javascript:void(0);"
+                                               class="menu-tree__link root js-tree-root-link">Инжектор A-04-001</a>
+                                        </li>
+                                        <li class="menu-tree__item">
+                                            <a href="javascript:void(0);"
+                                               class="menu-tree__link root js-tree-root-link">Инжектор A-04-001</a>
+                                        </li>
+                                        <li class="menu-tree__item">
+                                            <a href="javascript:void(0);"
+                                               class="menu-tree__link root js-tree-root-link">Инжектор A-04-001</a>
+                                        </li>
+                                        <li class="menu-tree__item">
+                                            <a href="javascript:void(0);"
+                                               class="menu-tree__link root js-tree-root-link">Инжектор A-04-001</a>
+                                        </li>
+                                    </ul>
+                                </li>
+                                <li class="menu-tree__item-root">
+                                    <a href="javascript:void(0);" class="menu-tree__link root js-tree-root-link">Запасные
+                                        части</a>
+                                    <ul class="menu-tree__items-list js-tree-list">
+                                        <li class="menu-tree__item">
+                                            <a href="javascript:void(0);"
+                                               class="menu-tree__link root js-tree-root-link">Инжектор A-04-001</a>
+                                        </li>
+                                        <li class="menu-tree__item">
+                                            <a href="javascript:void(0);"
+                                               class="menu-tree__link root js-tree-root-link">Инжектор A-04-001</a>
+                                        </li>
+                                        <li class="menu-tree__item">
+                                            <a href="javascript:void(0);"
+                                               class="menu-tree__link root js-tree-root-link">Инжектор A-04-001</a>
+                                        </li>
+                                        <li class="menu-tree__item">
+                                            <a href="javascript:void(0);"
+                                               class="menu-tree__link root js-tree-root-link">Инжектор A-04-001</a>
+                                        </li>
+                                        <li class="menu-tree__item">
+                                            <a href="javascript:void(0);"
+                                               class="menu-tree__link root js-tree-root-link">Инжектор A-04-001</a>
+                                        </li>
+                                    </ul>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="side-bar">
+                        <a href="javascript:void(0);" class="side-bar__title js-sidebar-title">Подбор продукции</a>
+                        <div class="side-bar__inner js-sidebar-inner">
+                            <div class="side-bar__input input-field input-field_transparent">
+                                <input type="text" class="input-field__text" placeholder="Поиск по артикулу">
+                            </div>
+                            <div class="side-bar__input input-field input-field_transparent">
+                                <select class="input-field__select js-select" data-placeholder="Продукция">
+                                    <option></option>
+                                    <option>Пункт 1</option>
+                                    <option>Пункт 2</option>
+                                </select>
+                            </div>
+                            <div class="side-bar__input input-field input-field_transparent">
+                                <select class="input-field__select js-select" data-placeholder="Марка автомобиля">
+                                    <option></option>
+                                    <option>Пункт 1</option>
+                                    <option>Пункт 2</option>
+                                </select>
+                            </div>
+                            <div class="side-bar__input input-field input-field_transparent">
+                                <select class="input-field__select js-select" data-placeholder="Двигатель">
+                                    <option></option>
+                                    <option>Пункт 1</option>
+                                    <option>Пункт 2</option>
+                                </select>
+                            </div>
+                            <button class="btn side-bar__btn"><i class="btn__find"></i>Поиск</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="section__content">
+                    <div class="section__breadcrumbs section__breadcrumbs_desktop breadcrumbs">
+                        <ul class="breadcrumbs__inner">
+                            <li class="breadcrumbs__item"><a href="javascript:void(0);" class="breadcrumbs__link">Главная</a>
+                            </li>
+                            <li class="breadcrumbs__item"><a href="javascript:void(0);" class="breadcrumbs__link">Каталог</a>
+                            </li>
+                            <li class="breadcrumbs__item">Форсунка 171</li>
+                        </ul>
+                    </div>
+                    <div class="section__page-title section__page-title_desktop page-title">
+                        <h2 class="page-title__title">Форсунка 171.1112010-11</h2>
+                        <div class="page-title__underline"></div>
+                    </div>
+                    <div class="product-cart">
+                        <a href="img/product-picture.jpg" style="background-image: url('img/product-picture.jpg')"
+                           class="product-cart__image">
+                        </a>
+                        <div class="product-cart__inner">
+                            <div class="product-cart__property">
+                                <span class="product-cart__property-name">Артикул</span> :
+                                <span class="product-cart__property-value">172.1112010-11</span>
+                            </div>
+                            <div class="product-cart__property">
+                                <span class="product-cart__property-name">Производитель</span> :
+                                <span class="product-cart__property-value">АЗПИ</span>
+                            </div>
+                            <div class="product-cart__property">
+                                <span class="product-cart__property-name">Наличие</span> :
+                                <span class="product-cart__property-value">Ожидается поступление</span>
+                            </div>
+                            <div class="product-cart__cost">
+                                <span class="product-cart__cost-text">Цена:</span>
+                                <span class="product-cart__cost-value">1660 руб.</span>
+                            </div>
+                            <div class="product-cart__bottom-block">
+                                <div class="product-cart__quantity quantity js-quantity">
+                                    <a href="javascript:void(0);" class="quantity__controls quantity__controls_delete js-quantity-delete"></a>
+                                    <span class="quantity__number js-quantity-number">1</span>
+                                    <a href="javascript:void(0);" class="quantity__controls quantity__controls_add js-quantity-add"></a>
+                                </div>
+                                <a href="#" class="product-cart__btn btn"><i class="btn__basket"></i> В корзину</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="section__tabs tabs js-tabs">
+                        <div class="tabs__links-pad tabs__links-pad_product">
+                            <a href="javascript:void(0)" class="tabs__link tabs__link_product js-tabs-link active">Описание</a>
+                            <a href="javascript:void(0)" class="tabs__link tabs__link_product js-tabs-link">Аналоги</a>
+                        </div>
+                        <div class="tabs__inner">
+                            <div class="tabs__content js-tabs-content active">
+                                <div class="product-table">
+                                    <div class="product-table__line">
+                                        <div class="product-table__cell">
+                                            <span class="product-table__property-name">Маркировка</span>
+                                            <span class="product-table__tabulator"></span>
+                                        </div>
+                                        <div class="product-table__cell">
+                                            <span class="product-table__property-value">172-11.01</span>
+                                        </div>
+                                    </div>
+                                    <div class="product-table__line">
+                                        <div class="product-table__cell">
+                                            <span class="product-table__property-name">Маркировка</span>
+                                            <span class="product-table__tabulator"></span>
+                                        </div>
+                                        <div class="product-table__cell">
+                                            <span class="product-table__property-value">172-11.01</span>
+                                        </div>
+                                    </div>
+                                    <div class="product-table__line">
+                                        <div class="product-table__cell">
+                                            <span class="product-table__property-name">Маркировка</span>
+                                            <span class="product-table__tabulator"></span>
+                                        </div>
+                                        <div class="product-table__cell">
+                                            <span class="product-table__property-value">172-11.01</span>
+                                        </div>
+                                    </div>
+                                    <div class="product-table__line">
+                                        <div class="product-table__cell">
+                                            <span class="product-table__property-name">Маркировка</span>
+                                            <span class="product-table__tabulator"></span>
+                                        </div>
+                                        <div class="product-table__cell">
+                                            <div class="product-table__cell">
+                                                <span class="product-table__property-value">172-11.01</span>
+                                            </div>
+                                            <div class="product-table__cell">
+                                                <span class="product-table__property-value">172-11.01</span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="tabs__content js-tabs-content">
+                            Содержимое второй вкладки
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <footer class="footer">
+        <div class="footer__inner content">
+            <a href="/" class="footer__logo">
+                <img src="img/logo.svg" alt="АЗПИ маркет">
+            </a>
+            <ul class="footer__menu-wrap">
+                <li class="footer__menu-item"><a href="javascript:void(0);" class="footer__menu-link">О компании</a>
+                </li>
+                <li class="footer__menu-item"><a href="javascript:void(0);" class="footer__menu-link">Ценовая
+                    политика</a>
+                </li>
+                <li class="footer__menu-item"><a href="javascript:void(0);" class="footer__menu-link">Новости</a>
+                </li>
+                <li class="footer__menu-item"><a href="javascript:void(0);" class="footer__menu-link">Доставка и
+                    оплата</a>
+                </li>
+                <li class="footer__menu-item"><a href="javascript:void(0);" class="footer__menu-link">Каталог</a>
+                </li>
+                <li class="footer__menu-item"><a href="javascript:void(0);" class="footer__menu-link">Партнеры</a>
+                </li>
+                <li class="footer__menu-item"><a href="javascript:void(0);" class="footer__menu-link">Доставка</a>
+                </li>
+                <li class="footer__menu-item"><a href="javascript:void(0);" class="footer__menu-link">Контакты</a>
+                </li>
+            </ul>
+            <div class="footer__contacts">
+                <a href="javascript:void(0);" class="footer__telephone">+7 (3852) 77-94-83</a>
+                <a href="javascript:void(0);" class="footer__email">azpi22@bk.ru</a>
+            </div>
+            <a href="javascript:void(0);" class="footer__address">
+                656023, РОССИЯ, Алтайский край, г. Барнаул, пр. Космонавтов, 6/2, офис 2
+            </a>
+        </div>
+        <div class="copyright">
+            <div class="copyright__inner content">
+                <span class="copyright__azpi">2018 © АЗПИ маркет. Все права защищены.</span>
+                <span class="copyright__letsrock">
+                    Разработка сайта -
+                    <a href="https://www.letsrock.pro" class="copyright__letsrock-logo">
+                        <img src="img/letsrock-logo.svg" alt="LetsRock">
+                    </a>
+                </span>
+            </div>
+        </div>
+    </footer>
+    <div class="bg-layer"></div>
+<div class="modal modal_type_login js-modal js-modal-login">
+        <div class="modal__inner">
+            <button data-izimodal-close="" class="modal__close"></button>
+            <h3 class="modal__title">Вход на сайт</h3>
+            <form class="form-block form-block_modal js-form" action="where.php">
+                <div class="form-block__inner form-block__inner_modal">
+                    <div class="input-field form-block__input-field">
+                        <input name="email" type="text" class="input-field__text" placeholder="Email">
+                    </div>
+                    <div class="input-field form-block__input-field">
+                        <input name="password" type="password" class="input-field__text" placeholder="Пароль">
+                    </div>
+                    <a href="#" class="modal__link modal__link_remember-pass">Забыли пароль</a>
+                    <button class="btn modal__btn">Сохранить</button>
+                </div>
+            </form>
+        </div>
+    </div>
+</div>
+<script src="js/libs.js"></script>
+<script src="js/script.js"></script>
+</body>
+
+</html>
