@@ -4591,149 +4591,479 @@ a:focus {
     color: #ffffff;
 }
 
-.section__product-image [data-point="1"] {
+.section__product-image1 [data-point="1"] {
     top: 48.5%;
     left: 33.5%;
 }
 
-.section__product-image [data-point="2"] {
+.section__product-image1 [data-point="2"] {
     top: 45%;
     left: 37%;
 }
 
-.section__product-image [data-point="3"] {
+.section__product-image1 [data-point="3"] {
     top: 18.5%;
     left: 45.5%;
 }
 
-.section__product-image [data-point="4"] {
+.section__product-image1 [data-point="4"] {
     top: 43.5%;
     left: 71%;
 }
 
-.section__product-image [data-point="5"] {
+.section__product-image1 [data-point="5"] {
     top: 78.5%;
     left: 49.5%;
 }
 
-.section__product-image [data-point="6"] {
+.section__product-image1 [data-point="6"] {
     top: 12.5%;
     left: 87%;
 }
 
-.section__product-image [data-point="7"] {
+.section__product-image1 [data-point="7"] {
     top: 42%;
     left: 16.5%;
 }
 
-.section__product-image [data-point="8"] {
+.section__product-image1 [data-point="8"] {
     top: 36%;
     left: 48.5%;
 }
 
-.section__product-image [data-point="9"] {
+.section__product-image1 [data-point="9"] {
     top: 51.5%;
     left: 67%;
 }
 
-.section__product-image [data-point="10"] {
+.section__product-image1 [data-point="10"] {
     top: 65.5%;
     left: 85.2%;
 }
 
-.section__product-image [data-point="11"] {
+.section__product-image1 [data-point="11"] {
     top: 49.5%;
     left: 72.3%;
 }
 
-.section__product-image [data-point="12"] {
+.section__product-image1 [data-point="12"] {
     top: 65.5%;
     left: 80.3%;
 }
 
-.section__product-image [data-point="13"] {
+.section__product-image1 [data-point="13"] {
     top: 52%;
     left: 33.1%;
 }
 
-.section__product-image [data-point="14"] {
+.section__product-image1 [data-point="14"] {
     top: 80.5%;
     left: 20.5%;
 }
 
-.section__product-image [data-point="15"] {
+.section__product-image1 [data-point="15"] {
     top: 40%;
     left: 37.5%;
 }
 
-.section__product-image [data-point="16"] {
+.section__product-image1 [data-point="16"] {
     top: 61%;
     left: 68.5%;
 }
 
-.section__product-image [data-point="17"] {
+.section__product-image1 [data-point="17"] {
     top: 83%;
     left: 70.5%;
 }
 
-.section__product-image [data-point="18"] {
+.section__product-image1 [data-point="18"] {
     top: 80.6%;
     left: 73.2%;
 }
 
-.section__product-image [data-point="19"] {
+.section__product-image1 [data-point="19"] {
     top: 85.2%;
     left: 68%;
 }
 
-.section__product-image [data-point="20"] {
+.section__product-image1 [data-point="20"] {
     top: 87.7%;
     left: 65%;
 }
 
-.section__product-image [data-point="21"] {
+.section__product-image1 [data-point="21"] {
     top: 55.5%;
     left: 63.6%;
 }
 
-.section__product-image [data-point="22"] {
+.section__product-image1 [data-point="22"] {
     top: 65.5%;
     left: 54.2%;
 }
 
-.section__product-image [data-point="23"] {
+.section__product-image1 [data-point="23"] {
     top: 19.5%;
     left: 69%;
 }
 
-.section__product-image [data-point="24"] {
+.section__product-image1 [data-point="24"] {
     top: 9.4%;
     left: 44.5%;
 }
 
-.section__product-image [data-point="25"] {
+.section__product-image1 [data-point="25"] {
     top: 58.2%;
     left: 61.4%;
 }
 
-.section__product-image [data-point="26"] {
+.section__product-image1 [data-point="26"] {
     top: 44.8%;
     left: 22.4%;
 }
 
-.section__product-image [data-point="27"] {
+.section__product-image1 [data-point="27"] {
     top: 55%;
     left: 67%;
 }
 
-.section__product-image [data-point="28"] {
+.section__product-image1 [data-point="28"] {
     top: 52%;
     left: 85.5%;
 }
 
-.section__product-image [data-point="29"] {
+.section__product-image1 [data-point="29"] {
     top: 87.7%;
     left: 55.5%;
+}
+
+.section__product-image2 [data-point="1"] {
+    top: 73.6%;
+    left: 90.5%;
+}
+
+.section__product-image2 [data-point="2"] {
+    top: 61.5%;
+    left: 91%;
+}
+
+.section__product-image2 [data-point="3"] {
+    top: 43%;
+    left: 90.5%;
+}
+
+.section__product-image2 [data-point="4"] {
+    top: 37.7%;
+    left: 89%;
+}
+
+.section__product-image2 [data-point="5"] {
+    top: 27.5%;
+    left: 89%;
+}
+
+.section__product-image2 [data-point="6"] {
+    top: 22.8%;
+    left: 89%;
+}
+
+.section__product-image2 [data-point="7"] {
+    top: 83%;
+    left: 66%;
+}
+
+.section__product-image2 [data-point="8"] {
+    top: 76%;
+    left: 64.5%;
+}
+
+.section__product-image2 [data-point="9"] {
+    top: 31%;
+    left: 74.5%;
+}
+
+.section__product-image2 [data-point="10"] {
+    top: 83.5%;
+    left: 50.7%;
+}
+
+.section__product-image2 [data-point="11"] {
+    top: 79.3%;
+    left: 50.7%;
+}
+
+.section__product-image2 [data-point="12"] {
+    top: 75.3%;
+    left: 50.2%;
+}
+
+.section__product-image2 [data-point="13"] {
+    top: 53.7%;
+    left: 49%;
+}
+
+.section__product-image2 [data-point="14"] {
+    top: 31%;
+    left: 49%;
+}
+
+.section__product-image2 [data-point="15"] {
+    top: 26%;
+    left: 49%;
+}
+
+.section__product-image2 [data-point="16"] {
+    top: 79%;
+    left: 36.5%;
+}
+
+.section__product-image2 [data-point="17"] {
+    top: 75.2%;
+    left: 35%;
+}
+
+.section__product-image2 [data-point="18"] {
+    top: 71%;
+    left: 35.5%;
+}
+
+.section__product-image2 [data-point="19"] {
+    top: 66.5%;
+    left: 37%;
+}
+
+.section__product-image2 [data-point="20"] {
+    top: 48.5%;
+    left: 40%;
+}
+
+.section__product-image2 [data-point="21"] {
+    top: 70%;
+    left: 14%;
+}
+
+.section__product-image2 [data-point="22"] {
+    top: 49%;
+    left: 11.5%;
+}
+
+.section__product-image2 [data-point="23"] {
+    top: 44.2%;
+    left: 14.5%;
+}
+
+.section__product-image2 [data-point="24"] {
+    top: 40%;
+    left: 14.5%;
+}
+
+.section__product-image2 [data-point="25"] {
+    top: 34%;
+    left: 13%;
+}
+
+.section__product-image2 [data-point="26"] {
+    top: 25%;
+    left: 11.5%;
+}
+
+.section__product-image2 [data-point="27"] {
+    top: 31%;
+    left: 38%;
+}
+
+.section__product-image2 [data-point="28"] {
+    top: 13%;
+    left: 78%;
+}
+
+.section__product-image2 [data-point="29"] {
+    top: 23%;
+    left: 54%;
+}
+
+.section__product-image2 [data-point="30"] {
+    top: 80%;
+    left: 90%;
+}
+
+.section__product-image3 [data-point="1"] {
+    top: 73.5%;
+    left: 95%;
+}
+
+.section__product-image3 [data-point="2"] {
+    top: 61%;
+    left: 96%;
+}
+
+.section__product-image3 [data-point="3"] {
+    top: 39.5%;
+    left: 95%;
+}
+
+.section__product-image3 [data-point="4"] {
+    top: 34%;
+    left: 94%;
+}
+
+.section__product-image3 [data-point="5"] {
+    top: 24%;
+    left: 93.5%;
+}
+
+.section__product-image3 [data-point="6"] {
+    top: 19%;
+    left: 93.7%;
+}
+
+.section__product-image3 [data-point="7"] {
+    top: 82%;
+    left: 58%;
+}
+
+.section__product-image3 [data-point="8"] {
+    top: 56.5%;
+    left: 78%;
+}
+
+.section__product-image3 [data-point="9"] {
+    top: 20.5%;
+    left: 71%;
+}
+
+.section__product-image3 [data-point="10"] {
+    top: 32%;
+    left: 78%;
+}
+
+.section__product-image3 [data-point="11"] {
+    top: 40%;
+    left: 73.5%;
+}
+
+.section__product-image3 [data-point="12"] {
+    top: 84.3%;
+    left: 37.3%;
+}
+
+.section__product-image3 [data-point="13"] {
+    top: 80%;
+    left: 37%;
+}
+
+.section__product-image3 [data-point="14"] {
+    top: 76%;
+    left: 37%;
+}
+
+.section__product-image3 [data-point="15"] {
+    top: 57%;
+    left: 36%;
+}
+
+.section__product-image3 [data-point="16"] {
+    top: 31%;
+    left: 35%;
+}
+
+.section__product-image3 [data-point="17"] {
+    top: 26%;
+    left: 35%;
+}
+
+.section__product-image3 [data-point="18"] {
+    top: 80%;
+    left: 27%;
+}
+
+.section__product-image3 [data-point="19"] {
+    top: 74.5%;
+    left: 26%;
+}
+
+.section__product-image3 [data-point="20"] {
+    top: 71%;
+    left: 26%;
+}
+
+.section__product-image3 [data-point="21"] {
+    top: 66%;
+    left: 27.5%;
+}
+
+.section__product-image3 [data-point="22"] {
+    top: 47%;
+    left: 30%;
+}
+
+.section__product-image3 [data-point="23"] {
+    top: 68.5%;
+    left: 8%;
+}
+
+.section__product-image3 [data-point="24"] {
+    top: 46.5%;
+    left: 6%;
+}
+
+.section__product-image3 [data-point="25"] {
+    top: 43%;
+    left: 8.5%;
+}
+
+.section__product-image3 [data-point="26"] {
+    top: 39%;
+    left: 8.5%;
+}
+
+.section__product-image3 [data-point="27"] {
+    top: 33%;
+    left: 6.5%;
+}
+
+.section__product-image3 [data-point="28"] {
+    top: 23%;
+    left: 5.5%;
+}
+
+.section__product-image3 [data-point="29"] {
+    top: 68%;
+    left: 48.3%;
+}
+
+.section__product-image3 [data-point="30"] {
+    top: 55%;
+    left: 47%;
+}
+
+.section__product-image3 [data-point="31"] {
+    top: 38.7%;
+    left: 42.5%;
+}
+
+.section__product-image3 [data-point="32"] {
+    top: 23%;
+    left: 44%;
+}
+
+.section__product-image3 [data-point="33"] {
+    top: 29%;
+    left: 28.5%;
+}
+
+.section__product-image3 [data-point="34"] {
+    top: 7%;
+    left: 82%;
+}
+
+.section__product-image3 [data-point="35"] {
+    top: 45%;
+    left: 85%;
+}
+
+.section__product-image3 [data-point="36"] {
+    top: 81%;
+    left: 95%;
 }
 
 .section__product-image img {
